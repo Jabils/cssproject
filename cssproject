@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>css project</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+        body {
+    background-color: azure;
+}
+
+h1  {
+    font-family: baskerville, garamond, georgia;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(215, 230, 250);
+}
+
+a {
+    text-decoration-line: underline;
+    font-size: 28px;
+    text-decoration-color: rgb(83, 137, 208);
+    color: rgb(10, 11, 11);
+    
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    border: 1px solid #999;
+}
+
+.vehicleType {
+    font-size: 20px;
+    color: rgb(32, 100, 188);
+</style>
+    </head>
+    
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>CSS Project</h1>
+
+            <div class="vehicleType"> Which vehicle type do you prefer?</div> 
+                <a href=https://www.ford.com/trucks/f150/?fmccmp=lp-trucks-mid-hp-f-150"><Div class="gas">Gas</Div><img src="ford raptor.webp" alt="ford raptor"></a><br>
+                <a href="https://www.ford.com/trucks/f150/f150-lightning-electric-truck/?gnav=header-electrified-vhp"><div class="electric">Electric</div><img src="ford lightning.webp" alt="ford lightning"></a>                      
+                    <a href=https://www.ford.com/trucks/f150/?fmccmp=lp-trucks-mid-hp-f-150">
+                        <a href="https://www.ford.com/trucks/f150/f150-lightning-electric-truck/?gnav=header-electrified-vhp"></a>
+                        
+        <script src="" async defer></script>
+    </body>
+</html>
